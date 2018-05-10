@@ -9,8 +9,7 @@ public class Club {
          Cashier cashier = new Cashier ("Cashier", 12345);
          
          public void Test() {
-            System.out.println(users);
+            
          }
-      
-      
+            
 }
