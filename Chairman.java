@@ -10,10 +10,10 @@ public class Chairman {
       this.password = password;
    }
    
-   public void setUsername (String username) {
+   public void setUsername(String username) {
       this.username = username;
    }
-   
+    
    public String getUsername () {
       return this.username; 
    }
@@ -24,6 +24,20 @@ public class Chairman {
    
    public int getPassword () {
       return this.password;
-   }
+   }  
+
+   public void menuChairman(int log) {
+         System.out.println("Welcome Chairman, choose option: ");
+         switch (log) {
+            case 1:
+               //registration
+               break;
+            /*case 2:     hvis vi kan 
+               //show members
+               break;*/
+         }
+      }
+   
+
 
 }

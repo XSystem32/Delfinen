@@ -32,7 +32,7 @@ public class Cashier {
             case 1:
                //show arrear members
                break;
-            case 2:     hvis vi kan 
+            case 2:     //hvis vi kan 
                //change status paid/unpaid
                break;
          }
