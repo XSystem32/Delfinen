@@ -25,7 +25,7 @@ public class Menu extends Chairman {
          
       }
       
-      public void validate(String getUsername, int getPassword) {
+      public void validate(String getUsername, String getPassword) {
          if (enterUsername.equals(getUsername()) && enterPassword.equals(getPassword())) {
          System.out.println("Welcome ");
          }
