@@ -1,7 +1,10 @@
 import java.util.*;
 
 public class Coach extends Workers {
-   
+
+   public Coach (String username, String password) {
+      super (username, password);
+   }
 
    public void menuCoach(int log) {
          System.out.println("Welcome Coach, choose option: ");

@@ -1,8 +1,11 @@
 import java.util.*;
 
 public class Cashier extends Workers {
+
+   public Cashier (String username, String password) {
+      super (username, password);
    
-   public void menuCashier(int log) {
+   /*public void menuCashier(int log) {
          System.out.println("Welcome Cashier, choose option: ");
          switch (log) {
             case 1:
@@ -12,6 +15,8 @@ public class Cashier extends Workers {
                //change status paid/unpaid
                break;
          }
-      }
+      }*/
    
+}
+
 }
