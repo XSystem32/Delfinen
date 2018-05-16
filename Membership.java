@@ -18,7 +18,9 @@ public class Membership {
    }
    
    public void showMembers() {
-      
+      for (Member member : members) {
+         System.out.println(member.toString());
+      }
    }
    
    public boolean registerMember(String name, String sex, String age, String address, String memberType){

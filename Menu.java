@@ -21,9 +21,7 @@ public class Menu {
                Membership membership = new Membership();
                break;
             case "2":
-               for (int i = 0; i < members.size(); i++) {
-                  System.out.println(members.get(i).getName());
-               }         
+               Membership.showMembers();         
                break;
          }
       }
