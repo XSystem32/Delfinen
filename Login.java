@@ -21,8 +21,7 @@ public class Login {
       public Login() {
          this.addWorker();
          this.runLogin();
-         
-      }
+         }
       
       //her laver vi en general login system
       
@@ -42,9 +41,7 @@ public class Login {
             
             System.out.println("Enter your password: ");
             enterPassword = scan.next();
-            
-             System.out.println(workersArrayList);
-            
+                        
             for (Workers workers : workersArrayList) {
             
                if (enterUsername.equals(workers.getUsername()) && enterPassword.equals(workers.getPassword())) {
@@ -55,10 +52,7 @@ public class Login {
                   workers.setLoggedIn(true);
                   
                   loginBoolean = false;   
-               } else {
-                     System.out.println("Fuck you");
-                  }
-            
+               }            
             }
          }
          
