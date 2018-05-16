@@ -47,6 +47,8 @@ public class Login {
                if (enterUsername.equals(workers.getUsername()) && enterPassword.equals(workers.getPassword())) {
                   
                   System.out.println ("You are logged in as " + workers.getUsername());
+                  System.out.println ("Welcome Chairman, please choose an option: ");
+                  System.out.println("1. Register member \n2. Show members");
                   
                   loggedIn = true;
                   workers.setLoggedIn(true);

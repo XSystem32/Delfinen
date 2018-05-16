@@ -1,74 +1,89 @@
+import java.util.*;
 import java.util.ArrayList;
 
 public class Member {
    
-
-   // for the constructor.
+ // for the constructor.
   private String name, sex, age, address, memberType;
    
   // a constructor for members. 
-   public Member (String name, String sex, String age, String address, String memberType) {
-      this.name = name;
-      this.sex = sex;
-      this.age = age;
-      this.address = address;
-      this.memberType = memberType;
+   public Member () {
+      this.name = "";
+      this.sex = "";
+      this.age = "";
+      this.address = "";
+      this.memberType = "";
    }
    public String toString()
    {
       return "Member" + 
              "Name: " + name +
-             "sex: " + sex + 
+             "Sex: " + sex + 
              "Age: "  + age +
              "Address: " + address +
              "Member type: " + memberType;
    }
    
    
+   
    // getters    
-      public String getName()
+   public String getName()
    {
-         return name;
+      return name;
    }
    
-      public String getSex() {
-         return sex;
-      }
+    public String getSex()
+   {
+      return sex;
+   }
    
-      public String getAge() {
-         return age;
-      }
+    public String getAge()
+   {
+      return age;
+   }
    
-      public String getAddress() {
-         return address;
-      }
+    public String getAddress()
+   {
+      return address;
+   }
    
-      public String getmemberType() {
-         return memberType;
-      }
+    public String getmemberType()
+   {
+      return memberType;
+   }
   
    // setters
    
-      public void setName(String name) {
-         this.name = name;
-      }
+   public void setName(String name)
+  {
+   this.name = name;
+  }
   
-      public void setSex(String Sex) {
-         this.sex = sex;
-      }
+   public void setSex(String sex)
+  {
+   this.sex = sex;
+   }
    
-      public void setAge(String Age) {
-         this.age = age;
-      }
+   public void setAge(String Age)
+  {
+   this.age = age;
+  }
   
-      public void setAddress(String Address)
-     {
-         this.address = Address;
-     }
+  public void setAddress(String Address)
+  {
+   this.address = Address;
+  }
   
-      public void setMemberType(String memberType)
-     {
-         this.memberType = memberType;
-     }
+  public void setmemberType(String memberType)
+  {
+   this.memberType = memberType;
+  }
   
-}
+  }
+  
+  
+  
+  
+  
+ 
+   
