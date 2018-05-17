@@ -71,7 +71,7 @@ public class Membership {
          memberType = test.nextLine();
       
          if (this.registerMember(name, sex, age, address, memberType)) {
-            System.out.println("Hi " + name + " - you are now registered");
+            System.out.println("You succesfully registered a member");
          } else {
             System.out.println("Member could not be registered - please try again");
          }

@@ -1,3 +1,5 @@
 
 Gulag,Bedar,Baba,Guga,Bui,
 David,MAle,34,Lyngevej,Aktiv,
+Marina,Female,22,Habrevej,Passiv,
+Holly,Female,18,Brakevej,Aktiv,
